@@ -43,4 +43,3 @@ county$period = (sapply(county$period, switch, 'M01'= "January" , 'M02'="Februar
 
 #Write the data out as txt first then open in excel
 write.table(county, file="county.txt", sep=",", col.names=colnames(county), row.names=FALSE)
-
